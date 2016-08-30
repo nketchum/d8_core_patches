@@ -1,0 +1,24 @@
+From 8ecdda5f593cfe6d34cf301e712e5a3ca0f8c3de Mon Sep 17 00:00:00 2001
+From: Nicholas Ketchum <nketchum@gmail.com>
+Date: Tue, 30 Aug 2016 07:22:52 -0400
+Subject: [PATCH] Add some top-margin to form sidebars in entity-meta.css
+
+---
+ entity-meta.css | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/core/themes/seven/css/components/entity-meta.css b/core/themes/seven/css/components/entity-meta.css
+index 9877ec3..200ff94 100644
+--- a/core/themes/seven/css/components/entity-meta.css
++++ b/core/themes/seven/css/components/entity-meta.css
+@@ -6,6 +6,7 @@
+   border-left: 1px solid #bfbfbf;
+   border-right: 1px solid #bfbfbf;
+   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
++  margin-top: 0.75em;
+ }
+ .entity-meta__header,
+ .entity-meta details {
+-- 
+2.9.3
+
