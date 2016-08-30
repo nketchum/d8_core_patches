@@ -6,6 +6,7 @@
   border-left: 1px solid #bfbfbf;
   border-right: 1px solid #bfbfbf;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+  margin-top: 0.75em;
 }
 .entity-meta__header,
 .entity-meta details {
