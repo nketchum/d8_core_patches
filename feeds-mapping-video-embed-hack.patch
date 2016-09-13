@@ -1,0 +1,14 @@
+diff --git a/src/Feeds/Target/StringTarget.php b/src/Feeds/Target/StringTarget.php
+index 9866dc3..74d2e23 100644
+--- a/src/Feeds/Target/StringTarget.php
++++ b/src/Feeds/Target/StringTarget.php
+@@ -15,7 +15,8 @@ use Drupal\feeds\Plugin\Type\Target\FieldTargetBase;
+  *   field_types = {
+  *     "string",
+  *     "string_long",
+- *     "list_string"
++ *     "list_string",
++ *     "video_embed_field"
+  *   }
+  * )
+  */
